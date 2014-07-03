@@ -3,13 +3,12 @@ from __future__ import absolute_import, unicode_literals
 from config.tmpl_middleware import TemplateResponse
 from gaecookie.decorator import no_csrf
 from gaepermission import facade
-from gaepermission.decorator import permissions
+from gaepermission.decorator import permissions, login_required
 from permission_app.model import ALL_PERMISSIONS_LIST, ADMIN
 from tekton import router
 from tekton.gae.middleware.json_middleware import JsonResponse
 
-
-@permissions(ADMIN)
+@login_required
 @no_csrf
 def index():
     dct = {'list_users_path': router.to_path(list_users),
@@ -17,7 +16,7 @@ def index():
     return TemplateResponse(dct)
 
 
-@permissions(ADMIN)
+@login_required
 def list_users(email_prefix='', cursor=None):
     cmd = facade.find_users_by_email_starting_with(email_prefix, cursor)
     users = cmd.execute().result
@@ -33,6 +32,6 @@ def list_users(email_prefix='', cursor=None):
     return JsonResponse({'users': users, 'next_page': next_page, 'more': cmd.more})
 
 
-@permissions(ADMIN)
+@login_required
 def update(user_id, groups):
     facade.update_user_groups(user_id, groups).execute()

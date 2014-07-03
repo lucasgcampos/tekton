@@ -1,14 +1,15 @@
 # -*- coding: utf-8 -*-
 from __future__ import absolute_import, unicode_literals
 from gaecookie.decorator import no_csrf
-from gaepermission.decorator import login_required
+from gaepermission.decorator import login_not_required, permissions
 from config.tmpl_middleware import TemplateResponse
+from permission_app.model import ADMIN
 from tekton import router
 from web.login import passwordless, facebook
 from web.permission import home as permission_home, admin
 
 
-@login_required
+@permissions(ADMIN)
 @no_csrf
 def index():
     return TemplateResponse({'security_table_path': router.to_path(permission_home.index),
