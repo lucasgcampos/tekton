@@ -18,7 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 1.3\n"
 
-#: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/home.html:18
+#: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/home.html:11
+msgid "A Full-Stack project for Google App Engine"
+msgstr "Um projeto Full-Stack para o Google App Engine"
+
+#: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/home.html:19
 msgid ""
 "Create CRUD code on\n"
 "                        <a href=\"https://cloud.google.com/products/app-"
@@ -40,15 +44,6 @@ msgstr "Tekton Full-Stack - código aberto. "
 #: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/home.html:36
 msgid "Check Git Hub Out"
 msgstr "Veja no GitHub"
-
-#: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/home.html:44
-msgid "Set your permission do ADMIN and play around"
-msgstr "Mude sua permissão para ADMIN e brinque no site!"
-
-#: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/home.html:48
-#: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/permission/admin.html:41
-msgid "Users Table"
-msgstr "Tabela de Usuários"
 
 #: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/admin/home.html:5
 msgid "Administration Panel"
@@ -222,6 +217,10 @@ msgstr ""
 "enviado através do serviço  <a "
 "href=\"https://pswdless.appspot.com/\">Passwordless</a>."
 
+#: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/permission/admin.html:41
+msgid "Users Table"
+msgstr "Tabela de Usuários"
+
 #: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/permission/home.html:6
 msgid "Security Table"
 msgstr "Tabela de Segurança"
@@ -244,7 +243,7 @@ msgstr ""
 
 #: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/permission/home.html:22
 msgid "Secure"
-msgstr "Seguro"
+msgstr "Segur"
 
 #: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/permission/home.html:22
 msgid "Unsecure"
@@ -310,4 +309,7 @@ msgstr "Data-hora inválida. Deve ser em formato %(format)s"
 #: /home/renzo/PycharmProjects/tekton-fullstack/backend/venv/lib/python2.7/site-packages/gaeforms/base.py:305
 msgid "MM/dd/YYYY HH:mm:ss"
 msgstr "dd/MM/YYYY HH:mm:ss"
+
+#~ msgid "Tekton Full-Stack is open soure. "
+#~ msgstr ""
 
