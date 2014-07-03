@@ -1,17 +1,19 @@
 # -*- coding: utf-8 -*-
 from __future__ import absolute_import, unicode_literals
 from config.tmpl_middleware import TemplateResponse
+from gaepermission.decorator import permissions
+from permission_app.model import ADMIN
 from tekton import router
 from gaecookie.decorator import no_csrf
 from course_app import facade
 from web.courses import form
 
-
+@permissions(ADMIN)
 def delete(_handler, course_id):
     facade.delete_course_cmd(course_id)()
     _handler.redirect(router.to_path(index))
 
-
+@permissions(ADMIN)
 @no_csrf
 def index():
     cmd = facade.list_courses_cmd()
