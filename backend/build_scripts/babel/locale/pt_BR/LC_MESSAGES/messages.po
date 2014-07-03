@@ -310,6 +310,4 @@ msgstr "Data-hora inválida. Deve ser em formato %(format)s"
 msgid "MM/dd/YYYY HH:mm:ss"
 msgstr "dd/MM/YYYY HH:mm:ss"
 
-#~ msgid "Tekton Full-Stack is open soure. "
-#~ msgstr ""
 
