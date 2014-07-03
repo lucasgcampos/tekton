@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-07-02 23:52-0300\n"
+"POT-Creation-Date: 2014-07-03 15:53-0300\n"
 "PO-Revision-Date: 2014-06-26 00:14-0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en_US <LL@li.org>\n"
@@ -29,18 +29,27 @@ msgid ""
 "engine/\">App Engine</a>"
 msgstr ""
 
-#: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/home.html:24
+#: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/home.html:25
 msgid ""
 " Check Courses App\n"
 "                            Out"
 msgstr ""
 
-#: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/home.html:31
-msgid "Tekton Full-Stack is open source. "
+#: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/home.html:32
+msgid "Tekton is open source."
 msgstr ""
 
-#: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/home.html:36
+#: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/home.html:37
 msgid "Check Git Hub Out"
+msgstr ""
+
+#: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/home.html:45
+msgid "Set your permission do ADMIN and play around"
+msgstr ""
+
+#: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/home.html:49
+#: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/permission/admin.html:41
+msgid "Users Table"
 msgstr ""
 
 #: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/admin/home.html:5
@@ -206,10 +215,6 @@ msgid ""
 "href=\"https://pswdless.appspot.com/\">Passwordless</a>."
 msgstr ""
 
-#: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/permission/admin.html:41
-msgid "Users Table"
-msgstr ""
-
 #: /home/renzo/PycharmProjects/tekton-fullstack/backend/plugins/appengine/templates/permission/home.html:6
 msgid "Security Table"
 msgstr ""
@@ -297,5 +302,9 @@ msgstr ""
 msgid "MM/dd/YYYY HH:mm:ss"
 msgstr ""
 
+#~ msgid "Tekton Full-Stack is open source. "
+#~ msgstr ""
 
+#~ msgid "A Full-Stak project for Google App Engine"
+#~ msgstr ""
 
